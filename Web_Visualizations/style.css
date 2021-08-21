@@ -1,0 +1,48 @@
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  text-align: left;
+  padding: 10px;
+  margin: 10px, 0px, 0px, 10px;
+}
+
+
+p{
+  color: black;
+  text-align: left;
+}
+
+.divbdy{
+  padding: 10px;
+}
+
+body {
+  background-image: url('Resources/Assets/Images/umbrella.gif');
+  background-color: #cccccc
+}
+
+.img-thumbnail{
+  padding: 5px;
+  margin: 5px;
+  border: darkgray;
+}
+
+.navbar{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 40px;
+}
+
+@media(max-width:767px){}
+
+.navbar{
+  padding: inherit;
+}
