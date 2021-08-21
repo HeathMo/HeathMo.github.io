@@ -24,8 +24,9 @@ p{
   padding: 10px;
 }
 
-body {
+.body {
   background-image: url('Resources/Assets/Images/umbrella.png');
+  backgroud-size: cover;
   background-color: #cccccc
 }
 
@@ -46,3 +47,4 @@ body {
 .navbar{
   padding: inherit;
 }
+
